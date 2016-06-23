@@ -1,0 +1,1150 @@
+<xigt-corpus>
+  <igt id="i1">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">       (41)      Bailaba(-n)   una(-s)    nena(-s)    bien   bonita(-s).</item>
+      <item id="r2" tag="G">                 danced-3PL indef-PL girl-PL          well   pretty-PL</item>
+      <item id="r3" tag="T">                 `Some pretty girls were dancing.'</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[17:28]" />
+      <item id="w2" segmentation="p1[31:38]" />
+      <item id="w3" segmentation="p1[42:50]" />
+      <item id="w4" segmentation="p1[54:58]" />
+      <item id="w5" segmentation="p1[61:71]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w1" content="r2[17:27]" />
+      <item id="gw2" alignment="w2" content="r2[28:36]" />
+      <item id="gw3" alignment="w3" content="r2[37:44]" />
+      <item id="gw4" alignment="w4" content="r2[54:58]" />
+      <item id="gw5" alignment="w5" content="r2[61:70]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">VERB</item>
+      <item id="gw-pos2" alignment="gw2">DET</item>
+      <item id="gw-pos3" alignment="gw3">NOUN</item>
+      <item id="gw-pos4" alignment="gw4">ADV</item>
+      <item id="gw-pos5" alignment="gw5">ADJ</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">VERB</item>
+      <item id="w-pos2" alignment="w2">DET</item>
+      <item id="w-pos3" alignment="w3">NOUN</item>
+      <item id="w-pos4" alignment="w4">ADV</item>
+      <item id="w-pos5" alignment="w5">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[18:22]" />
+      <item id="tw_b2" segmentation="t1[23:29]" />
+      <item id="tw_b3" segmentation="t1[30:35]" />
+      <item id="tw_b4" segmentation="t1[36:40]" />
+      <item id="tw_b5" segmentation="t1[41:48]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">DET</item>
+      <item id="tw-pos2" alignment="tw_b2">ADJ</item>
+      <item id="tw-pos3" alignment="tw_b3">NOUN</item>
+      <item id="tw-pos4" alignment="tw_b4">VERB</item>
+      <item id="tw-pos5" alignment="tw_b5">VERB</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b5" target="gw1" />
+      <item id="a2" source="tw_b1" target="gw2" />
+      <item id="a3" source="tw_b3" target="gw3" />
+      <item id="a4" source="tw_b2" target="gw5" />
+    </tier>
+  </igt>
+  <igt id="i2">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">  (22)    Si ella me quiere comprar el caballo, yo se la vender´e</item>
+      <item id="r2" tag="G">          if she dat-1sg wants buy the horse, I ??? ??? will-sell</item>
+      <item id="r3" tag="T">          "If she wants to buy my horse, I will sell it to her"</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[10:12]" />
+      <item id="w2" segmentation="p1[13:17]" />
+      <item id="w3" segmentation="p1[18:20]" />
+      <item id="w4" segmentation="p1[21:27]" />
+      <item id="w5" segmentation="p1[28:35]" />
+      <item id="w6" segmentation="p1[36:38]" />
+      <item id="w7" segmentation="p1[39:46]" />
+      <item id="w8" segmentation="p1[48:50]" />
+      <item id="w9" segmentation="p1[51:53]" />
+      <item id="w10" segmentation="p1[54:56]" />
+      <item id="w11" segmentation="p1[57:65]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w1" content="r2[10:12]" />
+      <item id="gw2" alignment="w2" content="r2[13:16]" />
+      <item id="gw3" alignment="w3" content="r2[17:24]" />
+      <item id="gw4" alignment="w4" content="r2[25:30]" />
+      <item id="gw5" alignment="w5" content="r2[31:34]" />
+      <item id="gw6" alignment="w6" content="r2[35:38]" />
+      <item id="gw7" alignment="w7" content="r2[39:44]" />
+      <item id="gw8" alignment="w8" content="r2[46:47]" />
+      <item id="gw9" alignment="w9" content="r2[48:51]" />
+      <item id="gw10" alignment="w10" content="r2[52:55]" />
+      <item id="gw11" alignment="w11" content="r2[56:65]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">ADP</item>
+      <item id="gw-pos2" alignment="gw2">PRON</item>
+      <item id="gw-pos3" alignment="gw3">PRON</item>
+      <item id="gw-pos4" alignment="gw4">VERB</item>
+      <item id="gw-pos5" alignment="gw5">VERB</item>
+      <item id="gw-pos6" alignment="gw6">DET</item>
+      <item id="gw-pos7" alignment="gw7">NOUN</item>
+      <item id="gw-pos8" alignment="gw8">PRON</item>
+      <item id="gw-pos9" alignment="gw9">X</item>
+      <item id="gw-pos10" alignment="gw10">X</item>
+      <item id="gw-pos11" alignment="gw11">VERB</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">ADP</item>
+      <item id="w-pos2" alignment="w2">PRON</item>
+      <item id="w-pos3" alignment="w3">PRON</item>
+      <item id="w-pos4" alignment="w4">VERB</item>
+      <item id="w-pos5" alignment="w5">VERB</item>
+      <item id="w-pos6" alignment="w6">DET</item>
+      <item id="w-pos7" alignment="w7">NOUN</item>
+      <item id="w-pos8" alignment="w8">PRON</item>
+      <item id="w-pos9" alignment="w9">PRON</item>
+      <item id="w-pos10" alignment="w10">DET</item>
+      <item id="w-pos11" alignment="w11">VERB</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[11:13]" />
+      <item id="tw_b2" segmentation="t1[14:17]" />
+      <item id="tw_b3" segmentation="t1[18:23]" />
+      <item id="tw_b4" segmentation="t1[24:26]" />
+      <item id="tw_b5" segmentation="t1[27:30]" />
+      <item id="tw_b6" segmentation="t1[31:33]" />
+      <item id="tw_b7" segmentation="t1[34:39]" />
+      <item id="tw_b8" segmentation="t1[41:42]" />
+      <item id="tw_b9" segmentation="t1[43:47]" />
+      <item id="tw_b10" segmentation="t1[48:52]" />
+      <item id="tw_b11" segmentation="t1[53:55]" />
+      <item id="tw_b12" segmentation="t1[56:58]" />
+      <item id="tw_b13" segmentation="t1[59:62]" />
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw2" />
+      <item id="a3" source="tw_b6" target="gw3" />
+      <item id="a4" source="tw_b3" target="gw4" />
+      <item id="a5" source="tw_b5" target="gw5" />
+      <item id="a6" source="tw_b7" target="gw7" />
+      <item id="a7" source="tw_b8" target="gw8" />
+      <item id="a8" source="tw_b9" target="gw11" />
+      <item id="a9" source="tw_b10" target="gw11" />
+    </tier>
+  </igt>
+  <igt id="i4">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">  (11).                   Compran/compramos unos recuerdos.</item>
+      <item id="r2" tag="G">                           buy-PRES-3plur/buy-PRES-1plur some souvenirs</item>
+      <item id="r3" tag="T">                          "(They/we) are buying souvenirs."</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[26:43]" />
+      <item id="w2" segmentation="p1[44:48]" />
+      <item id="w3" segmentation="p1[49:58]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w1" content="r2[27:56]" />
+      <item id="gw2" alignment="w2" content="r2[57:61]" />
+      <item id="gw3" alignment="w3" content="r2[62:71]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">VERB</item>
+      <item id="gw-pos2" alignment="gw2">DET</item>
+      <item id="gw-pos3" alignment="gw3">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">VERB</item>
+      <item id="w-pos2" alignment="w2">DET</item>
+      <item id="w-pos3" alignment="w3">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[27:36]" />
+      <item id="tw_b2" segmentation="t1[37:40]" />
+      <item id="tw_b3" segmentation="t1[41:47]" />
+      <item id="tw_b4" segmentation="t1[48:57]" />
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw1" />
+      <item id="a3" source="tw_b3" target="gw1" />
+      <item id="a4" source="tw_b4" target="gw3" />
+    </tier>
+  </igt>
+  <igt id="i5">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L+AC">  (12).                   Las mujeres tenemos esperanza. (Jelinek 1984:48)</item>
+      <item id="r2" tag="G">                          the women have-PRES-1plur hope</item>
+      <item id="r3" tag="T">                          "We women have hope."</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[26:29]" />
+      <item id="w2" segmentation="p1[30:37]" />
+      <item id="w3" segmentation="p1[38:45]" />
+      <item id="w4" segmentation="p1[46:55]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w1" content="r2[26:29]" />
+      <item id="gw2" alignment="w2" content="r2[30:35]" />
+      <item id="gw3" alignment="w3" content="r2[36:51]" />
+      <item id="gw4" alignment="w4" content="r2[52:56]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">DET</item>
+      <item id="gw-pos2" alignment="gw2">NOUN</item>
+      <item id="gw-pos3" alignment="gw3">VERB</item>
+      <item id="gw-pos4" alignment="gw4">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">DET</item>
+      <item id="w-pos2" alignment="w2">NOUN</item>
+      <item id="w-pos3" alignment="w3">VERB</item>
+      <item id="w-pos4" alignment="w4">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[27:29]" />
+      <item id="tw_b2" segmentation="t1[30:35]" />
+      <item id="tw_b3" segmentation="t1[36:40]" />
+      <item id="tw_b4" segmentation="t1[41:45]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PRON</item>
+      <item id="tw-pos2" alignment="tw_b2">NOUN</item>
+      <item id="tw-pos3" alignment="tw_b3">VERB</item>
+      <item id="tw-pos4" alignment="tw_b4">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw2" />
+      <item id="a3" source="tw_b3" target="gw3" />
+      <item id="a4" source="tw_b4" target="gw4" />
+    </tier>
+  </igt>
+  <igt id="i6">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">  (18).                     a.     ¿Compraste      cafe?</item>
+      <item id="r2" tag="G">                                   buy-past-2sing coffee</item>
+      <item id="r3" tag="T">                                   "Did you buy coffee?"</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[36:45]" />
+      <item id="w2" segmentation="p1[51:55]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w1" content="r2[35:49]" />
+      <item id="gw2" alignment="w2" content="r2[50:56]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">VERB</item>
+      <item id="gw-pos2" alignment="gw2">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">VERB</item>
+      <item id="w-pos2" alignment="w2">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[36:39]" />
+      <item id="tw_b2" segmentation="t1[40:43]" />
+      <item id="tw_b3" segmentation="t1[44:47]" />
+      <item id="tw_b4" segmentation="t1[48:54]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">VERB</item>
+      <item id="tw-pos2" alignment="tw_b2">PRON</item>
+      <item id="tw-pos3" alignment="tw_b3">VERB</item>
+      <item id="tw-pos4" alignment="tw_b4">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b3" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw1" />
+      <item id="a3" source="tw_b1" target="gw1" />
+      <item id="a4" source="tw_b4" target="gw2" />
+    </tier>
+  </igt>
+  <igt id="i21">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L+LN">  (4)     Siempre he           viajado en tren. Sp</item>
+      <item id="r2" tag="G">          Always have(1sg) traveled in train</item>
+      <item id="r3" tag="T">         "I have always traveled by train."</item>
+      <item id="r4" tag="M">                                                                                            - 13 -</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:5]" />
+      <item id="w2" segmentation="p1[10:17]" />
+      <item id="w3" segmentation="p1[18:20]" />
+      <item id="w4" segmentation="p1[31:38]" />
+      <item id="w5" segmentation="p1[39:41]" />
+      <item id="w6" segmentation="p1[42:46]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w2" content="r2[10:16]" />
+      <item id="gw2" alignment="w3" content="r2[17:26]" />
+      <item id="gw3" alignment="w4" content="r2[27:35]" />
+      <item id="gw4" alignment="w5" content="r2[36:38]" />
+      <item id="gw5" alignment="w6" content="r2[39:44]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">ADV</item>
+      <item id="gw-pos2" alignment="gw2">VERB</item>
+      <item id="gw-pos3" alignment="gw3">VERB</item>
+      <item id="gw-pos4" alignment="gw4">ADP</item>
+      <item id="gw-pos5" alignment="gw5">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">ADV</item>
+      <item id="w-pos3" alignment="w3">VERB</item>
+      <item id="w-pos4" alignment="w4">VERB</item>
+      <item id="w-pos5" alignment="w5">ADP</item>
+      <item id="w-pos6" alignment="w6">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[10:11]" />
+      <item id="tw_b2" segmentation="t1[12:16]" />
+      <item id="tw_b3" segmentation="t1[17:23]" />
+      <item id="tw_b4" segmentation="t1[24:32]" />
+      <item id="tw_b5" segmentation="t1[33:35]" />
+      <item id="tw_b6" segmentation="t1[36:41]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PRON</item>
+      <item id="tw-pos2" alignment="tw_b2">VERB</item>
+      <item id="tw-pos3" alignment="tw_b3">ADV</item>
+      <item id="tw-pos4" alignment="tw_b4">VERB</item>
+      <item id="tw-pos5" alignment="tw_b5">ADP</item>
+      <item id="tw-pos6" alignment="tw_b6">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b3" target="gw1" />
+      <item id="a2" source="tw_b1" target="gw2" />
+      <item id="a3" source="tw_b2" target="gw2" />
+      <item id="a4" source="tw_b4" target="gw3" />
+      <item id="a5" source="tw_b5" target="gw4" />
+      <item id="a6" source="tw_b6" target="gw5" />
+    </tier>
+  </igt>
+  <igt id="i80">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">  (38) a.   Los        español-es      bebe-mos           mucha cerveza.</item>
+      <item id="r2" tag="G">            ART:M.PL spaniard(M)-PL drink-1PL.PRES        much      beer</item>
+      <item id="r3" tag="T">            `We Spaniards drink a lot of beer.'</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:6]" />
+      <item id="w2" segmentation="p1[7:9]" />
+      <item id="w3" segmentation="p1[12:15]" />
+      <item id="w4" segmentation="p1[23:33]" />
+      <item id="w5" segmentation="p1[39:47]" />
+      <item id="w6" segmentation="p1[58:63]" />
+      <item id="w7" segmentation="p1[64:71]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w3" content="r2[12:20]" />
+      <item id="gw2" alignment="w4" content="r2[21:35]" />
+      <item id="gw3" alignment="w5" content="r2[36:50]" />
+      <item id="gw4" alignment="w6" content="r2[58:62]" />
+      <item id="gw5" alignment="w7" content="r2[68:72]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">DET</item>
+      <item id="gw-pos2" alignment="gw2">NOUN</item>
+      <item id="gw-pos3" alignment="gw3">VERB</item>
+      <item id="gw-pos4" alignment="gw4">ADJ</item>
+      <item id="gw-pos5" alignment="gw5">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">X</item>
+      <item id="w-pos3" alignment="w3">DET</item>
+      <item id="w-pos4" alignment="w4">NOUN</item>
+      <item id="w-pos5" alignment="w5">VERB</item>
+      <item id="w-pos6" alignment="w6">ADJ</item>
+      <item id="w-pos7" alignment="w7">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[13:15]" />
+      <item id="tw_b2" segmentation="t1[16:25]" />
+      <item id="tw_b3" segmentation="t1[26:31]" />
+      <item id="tw_b4" segmentation="t1[32:33]" />
+      <item id="tw_b5" segmentation="t1[34:37]" />
+      <item id="tw_b6" segmentation="t1[38:40]" />
+      <item id="tw_b7" segmentation="t1[41:45]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PRON</item>
+      <item id="tw-pos2" alignment="tw_b2">NOUN</item>
+      <item id="tw-pos3" alignment="tw_b3">VERB</item>
+      <item id="tw-pos4" alignment="tw_b4">DET</item>
+      <item id="tw-pos5" alignment="tw_b5">NOUN</item>
+      <item id="tw-pos6" alignment="tw_b6">ADP</item>
+      <item id="tw-pos7" alignment="tw_b7">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw2" />
+      <item id="a3" source="tw_b3" target="gw3" />
+      <item id="a4" source="tw_b4" target="gw4" />
+      <item id="a5" source="tw_b5" target="gw4" />
+      <item id="a6" source="tw_b6" target="gw4" />
+      <item id="a7" source="tw_b7" target="gw5" />
+    </tier>
+  </igt>
+  <igt id="i119">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">  (31) bella</item>
+      <item id="r2" tag="G">       beautiful.FEM</item>
+      <item id="r3" tag="T">       `Beautiful.'</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:6]" />
+      <item id="w2" segmentation="p1[7:12]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w2" content="r2[7:20]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">ADJ</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">ADJ</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[8:17]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">ADJ</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+    </tier>
+  </igt>
+  <igt id="i126">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L+LN">  (8)    un                      cuadro hermos- o                                 Spanish</item>
+      <item id="r2" tag="G">         INDEF.SG.MASC           picture beautiful-SG.MASC</item>
+      <item id="r3" tag="T">         `a beautiful picture'</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:5]" />
+      <item id="w2" segmentation="p1[9:11]" />
+      <item id="w3" segmentation="p1[33:39]" />
+      <item id="w4" segmentation="p1[40:49]" />
+      <item id="w5" segmentation="p1[82:89]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w2" content="r2[9:22]" />
+      <item id="gw2" alignment="w3" content="r2[33:40]" />
+      <item id="gw3" alignment="w4" content="r2[41:58]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">DET</item>
+      <item id="gw-pos2" alignment="gw2">NOUN</item>
+      <item id="gw-pos3" alignment="gw3">ADJ</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">DET</item>
+      <item id="w-pos3" alignment="w3">NOUN</item>
+      <item id="w-pos4" alignment="w4">ADJ</item>
+      <item id="w-pos5" alignment="w5">X</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[10:11]" />
+      <item id="tw_b2" segmentation="t1[12:21]" />
+      <item id="tw_b3" segmentation="t1[22:29]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">DET</item>
+      <item id="tw-pos2" alignment="tw_b2">ADJ</item>
+      <item id="tw-pos3" alignment="tw_b3">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+      <item id="a2" source="tw_b3" target="gw2" />
+      <item id="a3" source="tw_b2" target="gw3" />
+    </tier>
+  </igt>
+  <igt id="i131">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L+EX">  (38) a. La              vimos                      a la hermana              de     Juan (col)</item>
+      <item id="r2" tag="G">          cl-3sg-f-acc    saw-1pl                    P the sister              of     Juan</item>
+      <item id="r3" tag="T">           "We saw Juan's sister"</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:6]" />
+      <item id="w2" segmentation="p1[7:9]" />
+      <item id="w3" segmentation="p1[10:12]" />
+      <item id="w4" segmentation="p1[26:31]" />
+      <item id="w5" segmentation="p1[53:54]" />
+      <item id="w6" segmentation="p1[55:57]" />
+      <item id="w7" segmentation="p1[58:65]" />
+      <item id="w8" segmentation="p1[79:81]" />
+      <item id="w9" segmentation="p1[86:90]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w3" content="r2[10:22]" />
+      <item id="gw2" alignment="w4" content="r2[26:33]" />
+      <item id="gw3" alignment="w5" content="r2[53:54]" />
+      <item id="gw4" alignment="w6" content="r2[55:58]" />
+      <item id="gw5" alignment="w7" content="r2[59:65]" />
+      <item id="gw6" alignment="w8" content="r2[79:81]" />
+      <item id="gw7" alignment="w9" content="r2[86:90]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">DET</item>
+      <item id="gw-pos2" alignment="gw2">VERB</item>
+      <item id="gw-pos3" alignment="gw3">PRT</item>
+      <item id="gw-pos4" alignment="gw4">DET</item>
+      <item id="gw-pos5" alignment="gw5">NOUN</item>
+      <item id="gw-pos6" alignment="gw6">ADP</item>
+      <item id="gw-pos7" alignment="gw7">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:58" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">X</item>
+      <item id="w-pos3" alignment="w3">DET</item>
+      <item id="w-pos4" alignment="w4">VERB</item>
+      <item id="w-pos5" alignment="w5">PRT</item>
+      <item id="w-pos6" alignment="w6">DET</item>
+      <item id="w-pos7" alignment="w7">NOUN</item>
+      <item id="w-pos8" alignment="w8">ADP</item>
+      <item id="w-pos9" alignment="w9">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[12:14]" />
+      <item id="tw_b2" segmentation="t1[15:18]" />
+      <item id="tw_b3" segmentation="t1[19:25]" />
+      <item id="tw_b4" segmentation="t1[26:32]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PRON</item>
+      <item id="tw-pos2" alignment="tw_b2">VERB</item>
+      <item id="tw-pos3" alignment="tw_b3">NOUN</item>
+      <item id="tw-pos4" alignment="tw_b4">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw2" />
+      <item id="a3" source="tw_b4" target="gw5" />
+      <item id="a4" source="tw_b3" target="gw6" />
+      <item id="a5" source="tw_b3" target="gw7" />
+    </tier>
+  </igt>
+  <igt id="i311">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">  (8)    Había una viejita dice.</item>
+      <item id="r2" tag="G">         Was an old woman say</item>
+      <item id="r3" tag="T">         "(There) was an old woman, (they) say</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:5]" />
+      <item id="w2" segmentation="p1[9:14]" />
+      <item id="w3" segmentation="p1[15:18]" />
+      <item id="w4" segmentation="p1[19:26]" />
+      <item id="w5" segmentation="p1[27:32]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w2" content="r2[9:12]" />
+      <item id="gw2" alignment="w3" content="r2[13:15]" />
+      <item id="gw3" alignment="w4" content="r2[16:19]" />
+      <item id="gw4" alignment="w4" content="r2[20:25]" />
+      <item id="gw5" alignment="w5" content="r2[26:29]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:14" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">VERB</item>
+      <item id="gw-pos2" alignment="gw2">DET</item>
+      <item id="gw-pos3" alignment="gw3">ADJ</item>
+      <item id="gw-pos4" alignment="gw4">NOUN</item>
+      <item id="gw-pos5" alignment="gw5">VERB</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:59" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">VERB</item>
+      <item id="w-pos3" alignment="w3">DET</item>
+      <item id="w-pos4" alignment="w4">NOUN</item>
+      <item id="w-pos5" alignment="w5">VERB</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[9:10]" />
+      <item id="tw_b2" segmentation="t1[10:17]" />
+      <item id="tw_b3" segmentation="t1[18:21]" />
+      <item id="tw_b4" segmentation="t1[22:24]" />
+      <item id="tw_b5" segmentation="t1[25:28]" />
+      <item id="tw_b6" segmentation="t1[29:34]" />
+      <item id="tw_b7" segmentation="t1[34:35]" />
+      <item id="tw_b8" segmentation="t1[36:42]" />
+      <item id="tw_b9" segmentation="t1[43:46]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:48" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PUNC</item>
+      <item id="tw-pos2" alignment="tw_b2">CONJ</item>
+      <item id="tw-pos3" alignment="tw_b3">VERB</item>
+      <item id="tw-pos4" alignment="tw_b4">DET</item>
+      <item id="tw-pos5" alignment="tw_b5">ADJ</item>
+      <item id="tw-pos6" alignment="tw_b6">NOUN</item>
+      <item id="tw-pos7" alignment="tw_b7">PUNC</item>
+      <item id="tw-pos8" alignment="tw_b8">PRON</item>
+      <item id="tw-pos9" alignment="tw_b9">VERB</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b3" target="gw1" />
+      <item id="a2" source="tw_b4" target="gw2" />
+      <item id="a3" source="tw_b5" target="gw3" />
+      <item id="a4" source="tw_b6" target="gw4" />
+      <item id="a5" source="tw_b9" target="gw5" />
+      <item id="a6" source="tw_b8" target="gw5" />
+    </tier>
+  </igt>
+  <igt id="i409">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L+LN">  (16) a. ¿Por qué Isabel no te llama?                                                                       (Spanish)</item>
+      <item id="r2" tag="G">            For what Isabel not CL-you call-3SG</item>
+      <item id="r3" tag="T">           `Why doesn't Isabel call you?'</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:6]" />
+      <item id="w2" segmentation="p1[7:9]" />
+      <item id="w3" segmentation="p1[10:11]" />
+      <item id="w4" segmentation="p1[11:14]" />
+      <item id="w5" segmentation="p1[15:18]" />
+      <item id="w6" segmentation="p1[19:25]" />
+      <item id="w7" segmentation="p1[26:28]" />
+      <item id="w8" segmentation="p1[29:31]" />
+      <item id="w9" segmentation="p1[32:37]" />
+      <item id="w10" segmentation="p1[37:38]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w4" content="r2[12:15]" />
+      <item id="gw2" alignment="w5" content="r2[16:20]" />
+      <item id="gw3" alignment="w6" content="r2[21:27]" />
+      <item id="gw4" alignment="w7" content="r2[28:31]" />
+      <item id="gw5" alignment="w8" content="r2[32:38]" />
+      <item id="gw6" alignment="w9" content="r2[39:47]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:15" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">ADP</item>
+      <item id="gw-pos2" alignment="gw2">DET</item>
+      <item id="gw-pos3" alignment="gw3">NOUN</item>
+      <item id="gw-pos4" alignment="gw4">ADV</item>
+      <item id="gw-pos5" alignment="gw5">PRON</item>
+      <item id="gw-pos6" alignment="gw6">VERB</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:59" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">X</item>
+      <item id="w-pos3" alignment="w3">PUNC</item>
+      <item id="w-pos4" alignment="w4">ADP</item>
+      <item id="w-pos5" alignment="w5">DET</item>
+      <item id="w-pos6" alignment="w6">NOUN</item>
+      <item id="w-pos7" alignment="w7">ADV</item>
+      <item id="w-pos8" alignment="w8">PRON</item>
+      <item id="w-pos9" alignment="w9">VERB</item>
+      <item id="w-pos10" alignment="w10">PUNC</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[11:12]" />
+      <item id="tw_b2" segmentation="t1[12:15]" />
+      <item id="tw_b3" segmentation="t1[16:20]" />
+      <item id="tw_b4" segmentation="t1[20:23]" />
+      <item id="tw_b5" segmentation="t1[24:30]" />
+      <item id="tw_b6" segmentation="t1[31:35]" />
+      <item id="tw_b7" segmentation="t1[36:39]" />
+      <item id="tw_b8" segmentation="t1[39:40]" />
+      <item id="tw_b9" segmentation="t1[40:41]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:49" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PUNC</item>
+      <item id="tw-pos2" alignment="tw_b2">ADV</item>
+      <item id="tw-pos3" alignment="tw_b3">VERB</item>
+      <item id="tw-pos4" alignment="tw_b4">ADV</item>
+      <item id="tw-pos5" alignment="tw_b5">NOUN</item>
+      <item id="tw-pos6" alignment="tw_b6">VERB</item>
+      <item id="tw-pos7" alignment="tw_b7">PRON</item>
+      <item id="tw-pos8" alignment="tw_b8">PUNC</item>
+      <item id="tw-pos9" alignment="tw_b9">PUNC</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b2" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw2" />
+      <item id="a3" source="tw_b5" target="gw3" />
+      <item id="a4" source="tw_b4" target="gw4" />
+      <item id="a5" source="tw_b7" target="gw5" />
+      <item id="a6" source="tw_b6" target="gw6" />
+    </tier>
+  </igt>
+  <igt id="i414">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">          quebraron las ventanas</item>
+      <item id="r2" tag="G">          broke/3p the windows</item>
+      <item id="r3" tag="T">          'they broke the windows'</item>
+      <item id="r4" tag="M+CN">  (17) a. Active:</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[10:19]" />
+      <item id="w2" segmentation="p1[20:23]" />
+      <item id="w3" segmentation="p1[24:32]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w1" content="r2[10:18]" />
+      <item id="gw2" alignment="w2" content="r2[19:22]" />
+      <item id="gw3" alignment="w3" content="r2[23:30]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:15" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">VERB</item>
+      <item id="gw-pos2" alignment="gw2">DET</item>
+      <item id="gw-pos3" alignment="gw3">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:59" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">VERB</item>
+      <item id="w-pos2" alignment="w2">DET</item>
+      <item id="w-pos3" alignment="w3">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[10:15]" />
+      <item id="tw_b2" segmentation="t1[16:21]" />
+      <item id="tw_b3" segmentation="t1[22:25]" />
+      <item id="tw_b4" segmentation="t1[26:34]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:49" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PRON</item>
+      <item id="tw-pos2" alignment="tw_b2">VERB</item>
+      <item id="tw-pos3" alignment="tw_b3">DET</item>
+      <item id="tw-pos4" alignment="tw_b4">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b2" target="gw1" />
+      <item id="a2" source="tw_b1" target="gw1" />
+      <item id="a3" source="tw_b3" target="gw2" />
+      <item id="a4" source="tw_b4" target="gw3" />
+    </tier>
+  </igt>
+  <igt id="i417">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">  (16)           Hemos      venido los profesores</item>
+      <item id="r2" tag="G">                 have-1PL come       the professors</item>
+      <item id="r3" tag="T">                 `We, the professors, have come'</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[2:6]" />
+      <item id="w2" segmentation="p1[17:22]" />
+      <item id="w3" segmentation="p1[28:34]" />
+      <item id="w4" segmentation="p1[35:38]" />
+      <item id="w5" segmentation="p1[39:49]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w2" content="r2[17:25]" />
+      <item id="gw2" alignment="w3" content="r2[26:30]" />
+      <item id="gw3" alignment="w4" content="r2[37:40]" />
+      <item id="gw4" alignment="w5" content="r2[41:51]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:15" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">VERB</item>
+      <item id="gw-pos2" alignment="gw2">VERB</item>
+      <item id="gw-pos3" alignment="gw3">DET</item>
+      <item id="gw-pos4" alignment="gw4">NOUN</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:59" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">VERB</item>
+      <item id="w-pos3" alignment="w3">VERB</item>
+      <item id="w-pos4" alignment="w4">DET</item>
+      <item id="w-pos5" alignment="w5">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[17:21]" />
+      <item id="tw_b2" segmentation="t1[22:25]" />
+      <item id="tw_b3" segmentation="t1[26:37]" />
+      <item id="tw_b4" segmentation="t1[38:42]" />
+      <item id="tw_b5" segmentation="t1[43:48]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:49" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">PRON</item>
+      <item id="tw-pos2" alignment="tw_b2">DET</item>
+      <item id="tw-pos3" alignment="tw_b3">NOUN</item>
+      <item id="tw-pos4" alignment="tw_b4">VERB</item>
+      <item id="tw-pos5" alignment="tw_b5">VERB</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b4" target="gw1" />
+      <item id="a2" source="tw_b1" target="gw1" />
+      <item id="a3" source="tw_b5" target="gw2" />
+      <item id="a4" source="tw_b2" target="gw3" />
+      <item id="a5" source="tw_b3" target="gw4" />
+    </tier>
+  </igt>
+  <igt id="i425">
+    <metadata type="intent-meta">
+      <meta type="language" iso-639-3="eng" name="english" tiers="glosses translations" />
+    </metadata>
+    <tier id="r" type="odin" state="raw">
+      <item id="r1" tag="L">            b. Están         buscando a una sirvienta.</item>
+      <item id="r2" tag="G">               be.PRES.3.PL seeking to a servant</item>
+      <item id="r3" tag="T">               `They're looking for a maid.'</item>
+    </tier>
+    <tier id="p" type="phrases" content="r">
+      <item id="p1" content="r1" />
+    </tier>
+    <tier id="w" type="words" segmentation="p">
+      <item id="w1" segmentation="p1[12:14]" />
+      <item id="w2" segmentation="p1[15:20]" />
+      <item id="w3" segmentation="p1[29:37]" />
+      <item id="w4" segmentation="p1[38:39]" />
+      <item id="w5" segmentation="p1[40:43]" />
+      <item id="w6" segmentation="p1[44:54]" />
+    </tier>
+    <tier id="gw" type="glosses" alignment="w" content="r">
+      <item id="gw1" alignment="w2" content="r2[15:27]" />
+      <item id="gw2" alignment="w3" content="r2[28:35]" />
+      <item id="gw3" alignment="w4" content="r2[36:38]" />
+      <item id="gw4" alignment="w5" content="r2[39:40]" />
+      <item id="gw5" alignment="w6" content="r2[41:48]" />
+    </tier>
+    <tier id="gw-pos" type="pos" alignment="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:47:15" method="supervised" source="intent" />
+      </metadata>
+      <item id="gw-pos1" alignment="gw1">VERB</item>
+      <item id="gw-pos2" alignment="gw2">VERB</item>
+      <item id="gw-pos3" alignment="gw3">ADP</item>
+      <item id="gw-pos4" alignment="gw4">DET</item>
+      <item id="gw-pos5" alignment="gw5">NUM</item>
+    </tier>
+    <tier id="w-pos" type="pos" alignment="w">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:48:59" method="supervised" source="intent" />
+      </metadata>
+      <item id="w-pos1" alignment="w1">X</item>
+      <item id="w-pos2" alignment="w2">VERB</item>
+      <item id="w-pos3" alignment="w3">VERB</item>
+      <item id="w-pos4" alignment="w4">ADP</item>
+      <item id="w-pos5" alignment="w5">DET</item>
+      <item id="w-pos6" alignment="w6">NOUN</item>
+    </tier>
+    <tier id="t" type="translations" alignment="p" content="r">
+      <item id="t1" alignment="p1" content="r3" />
+    </tier>
+    <tier id="tw_b" type="words" segmentation="t">
+      <item id="tw_b1" segmentation="t1[15:23]" />
+      <item id="tw_b2" segmentation="t1[24:31]" />
+      <item id="tw_b3" segmentation="t1[32:35]" />
+      <item id="tw_b4" segmentation="t1[36:37]" />
+      <item id="tw_b5" segmentation="t1[38:44]" />
+    </tier>
+    <tier id="tw-pos" type="pos" alignment="tw_b">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2016-04-21T18:49:49" method="supervised" source="intent" />
+      </metadata>
+      <item id="tw-pos1" alignment="tw_b1">VERB</item>
+      <item id="tw-pos2" alignment="tw_b2">VERB</item>
+      <item id="tw-pos3" alignment="tw_b3">ADP</item>
+      <item id="tw-pos4" alignment="tw_b4">DET</item>
+      <item id="tw-pos5" alignment="tw_b5">NOUN</item>
+    </tier>
+    <tier id="a" type="bilingual-alignments" source="tw_b" target="gw">
+      <metadata type="intent-meta">
+        <meta type="data-provenance" date="2015-10-09 21:37:44-UTC" method="manual" source="intent" />
+      </metadata>
+      <item id="a1" source="tw_b1" target="gw1" />
+      <item id="a2" source="tw_b2" target="gw2" />
+      <item id="a3" source="tw_b3" target="gw3" />
+      <item id="a4" source="tw_b4" target="gw4" />
+      <item id="a5" source="tw_b5" target="gw5" />
+    </tier>
+  </igt>
+</xigt-corpus>
